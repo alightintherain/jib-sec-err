@@ -1,0 +1,45 @@
+{
+    "1": {
+        "id": 1,
+        "class": "Sequence",
+        "name": "",
+        "asset-pack": "core",
+        "children": [
+            "70035828-b0da-4f0c-a870-3b7364b9c89d",
+            "678d1f84-5f36-49ab-9395-3520f9fa6010"
+        ],
+        "decorators": [],
+        "options": {}
+    },
+    "meta": {
+        "version": 1
+    },
+    "70035828-b0da-4f0c-a870-3b7364b9c89d": {
+        "id": "70035828-b0da-4f0c-a870-3b7364b9c89d",
+        "class": "TextToSpeech",
+        "name": "",
+        "options": {
+            "words": "Hello World",
+            "onWord": [
+                "(word) => {",
+                "}"
+            ]
+        },
+        "asset-pack": "core",
+        "parent": 1
+    },
+    "678d1f84-5f36-49ab-9395-3520f9fa6010": {
+        "id": "678d1f84-5f36-49ab-9395-3520f9fa6010",
+        "class": "PlayAnimation",
+        "name": "",
+        "options": {
+            "animPath": "greeting.keys",
+            "config": [
+                "(animation) => {",
+                "}"
+            ]
+        },
+        "asset-pack": "core",
+        "parent": 1
+    }
+}
